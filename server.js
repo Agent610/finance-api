@@ -1,7 +1,8 @@
-//const connectDB = require("./scr/config/database");
-//connectDB();
 require("dotenv").config();
 const app = require("./app");
+const connectDB = require("./scr/config/database");
+
+connectDB();
 
 const PORT = process.env.PORT || 3000;
 
