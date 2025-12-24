@@ -6,6 +6,9 @@ app.use(express.json());
 const authRoutes = require("./scr/routes/authRoutes");
 app.use("/auth", authRoutes);
 
+const transactionRoutes = require("./scr/routes/transactionRoutes");
+app.use("/transactions", transactionRoutes);
+
 app.get("/", (req, res) => {
   res.send("Finance API running");
 });
