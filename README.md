@@ -33,7 +33,7 @@ Project structure and file information
 
 Finance API (Main)
 Subdirectories
--src ->
+-scr ->
 
 - config(Database configuration)
 - controllers(Request handlers)
